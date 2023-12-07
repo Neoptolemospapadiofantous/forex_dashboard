@@ -1,0 +1,21 @@
+feat(transactions): implement Transaction model and controller
+
+- Adds Transaction model with attributes: transaction_id, amount, date, user_id
+- Introduces TransactionController with basic routes
+
+refactor(users): streamline user-related changes
+
+- Updates user seeder and removes unnecessary code
+- Streamlines user migration file
+
+markdown(docs): clean up documentation files
+
+- Consolidates command-related documentation in commands.md
+- Removes outdated policy.md and terms.md files
+
+fix(routes): adjust web routes for consistency
+
+- Updates web.php to ensure consistency with new features
+
+BREAKING CHANGE: Users need to re-authenticate due to the OAuth2 integration.
+
